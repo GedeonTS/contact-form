@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/form.css" />
     <title>Aziz Mejri - Portfolio</title>
   </head>
   <body>
@@ -155,7 +156,9 @@
           <div class="card-description">
             <h2>Weather App</h2>
             <p class="white-description">
-              This is a responsive weather app made with JavaScript that displays the temperature, humidity and timezone for cities around the world.
+              This is a responsive weather app made with JavaScript that
+              displays the temperature, humidity and timezone for cities around
+              the world.
             </p>
             <ul class="project-stacks card-stacks">
               <li>HTML</li>
@@ -216,7 +219,6 @@
             >
           </div>
         </div>
-        
       </div>
       <div class="about-me">
         <section class="about-me-section">
@@ -289,6 +291,94 @@
           </ul>
         </div>
       </div>
+      <footer class="footer-container">
+        <h2>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
+        <form class="form-container" action="https://formspree.io/f/mvolqndo" method="post">
+          <input type="text" name="name" placeholder="Full name" class="id-input" required />
+          <input
+            name="email"
+            type="email"
+            class="id-input"
+            maxlength="30"
+            placeholder="Your email address"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Enter text here"
+            maxlength="500"
+            class="text-input"
+            required
+          ></textarea>
+          <input type="submit" class="submit-btn" value="Get in touch" />
+        </form>
+        <hr class="hr-line">
+        <div class="social">
+          <a
+            class="social-link"
+            href="https://github.com/SpaYco"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              class="social-icon"
+              src="./media/svg/github.svg"
+              alt="GitHub Icon"
+            />
+          </a>
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/spayco"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              class="social-icon"
+              src="./media/svg/linkedin.svg"
+              alt="LinkedIn Icon"
+            />
+          </a>
+          <a
+            class="social-link"
+            href="https://angel.co/spayco"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              class="social-icon"
+              src="./media/svg/angel.svg"
+              alt="AngelList Icon"
+            />
+          </a>
+          <a
+            class="social-link"
+            href="https://twitter.com/iSpaYco"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              class="social-icon"
+              src="./media/svg/twitter.svg"
+              alt="Twitter Icon"
+            />
+          </a>
+          <a
+            class="social-link"
+            href="https://spayco.medium.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              class="social-icon"
+              src="./media/svg/medium.svg"
+              alt="Medium Icon"
+            />
+          </a>
+        </div>
+      </footer>
     </main>
 
     <script
