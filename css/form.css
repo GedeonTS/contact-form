@@ -1,0 +1,74 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-container h1 {
+  width: 85%;
+  max-width: 500px;
+  color:  #172B4D;;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 700;
+  margin-top:120px ;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.id-input {
+    width: 85%;
+    max-width: 500px;
+    height: 50px;
+    border: none;
+    margin-top:20px ;
+    border-bottom: 1px solid #DBD8D7;
+    padding: 0 10px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    color: #DBD8D7;
+}
+
+.text-input {
+    width: 85%;
+    max-width: 500px;
+    height: 100px;
+    margin-top:20px ;
+    border: none;
+    padding: 0 10px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    color: #3C3A39;
+    padding: 12px;
+    background-color: #FBF8F7;
+}
+
+.submit-btn {
+    width: 200px;
+    height: 50px;
+    margin-top:20px ;
+    border: none;
+    background-color: #FF6B00;
+    color:#fff;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.submit-btn:hover {
+    background-color: #61310f;
+}
+
+.hr-line {
+    width: 100vw;
+}
