@@ -1,17 +1,74 @@
- ![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# contact-form
- 
- In this project I created a contact form the portfolio project.
+<div align="center">
 
-## Built With
+  <h3><b>Personal Portfolio</b></h3>
 
-- HTML
-- CSS/SCSS
+</div>
 
+# 📗 Table of Contents
 
-## Getting Started
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
+# 📖 Personal Portfolio <a name="about-project"></a>
+
+**Personal portfolio** is a simple website that gives visitors an information about who I am and showcase my work.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JS</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **It gives information about my projects.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- Coming soon...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- NodeJS Runtime Environment to run linter checks locally.
+
+### Setup
+
+  
 You can have a copy of this repo run on your local machine by just directly cloning it
 
 > Cloning steps:
@@ -20,22 +77,27 @@ You can have a copy of this repo run on your local machine by just directly clon
 2. - [ ] Navigate to the directory where you want to add this repository
 3. - [ ] Run `git clone https://github.com/GedeonTS/contact-form.git`
 4. - [ ] Run `npm install` to install the necessary modules
+```
 
-### Prerequisites
+### Install
 
-- Node.js
-- npm
-- vscode(or else)
-To get the output of our project make sure you have google Chrome, Mozila or any other browser installed.
+Install linter dependencies with:
+
+```sh
+  cd contact-form
+  npm install
+```
 
 ### Usage
 
-> Open the index.html file with your code editor of your choice and/or a browser of your choice.
-```bash
-Open the project using a live saver extension that can be found into your code editor.
+To run the project, execute the following command:
+
+```sh
+  live-server
 ```
 
 ### Run tests
+
 
 WebHint
 ```bash
@@ -47,12 +109,11 @@ StyleLint
 $ npx stylelint "**/*.{css,scss}"
 ```
 
-ESLint
-```bash
-$ npx eslint .
-```
+### Deployment
 
-## Author
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="authors"></a>
 
 👤 **GedeonTS**
 
@@ -61,21 +122,43 @@ $ npx eslint .
 - LinkedIn: [Ushindi Gedeon](https://linkedin.com/in/ushindi-gedeon-73032a228)
 
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **It will allow visitors to download my CV.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project please give it a star.
 
-- Thank You [Microverse](www.microverse.org) team that help me with the template of this project.
-- Thanks to everyone who will get time to check this code and suggest any issue to improve the page.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank the Microverse curriculum.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
